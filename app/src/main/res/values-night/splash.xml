@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <style name="Theme.MyApp.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#7f3dff</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/et</item>
+        <item name="postSplashScreenTheme">@style/Theme.ExpenseTracker</item>
+    </style>
+</resources>
