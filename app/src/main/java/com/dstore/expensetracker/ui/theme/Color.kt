@@ -15,12 +15,14 @@ val BASE_LIGHT_LIGHT_100 = Color(0xffFFFFFF)
 
 // base dark
 val BASE_DARK_DARK_100 = Color(0xff0D0E0F)
+val BASE_DARK_DARK_50 = Color(0xff212325)
 val BASE_DARK_DARK_75 = Color(0xff161719)
 // violet
 val VIOLET_VIOLET_100 = Color(0xff7F3DFF)
 val VIOLET_VIOLET_80 = Color(0xff8F57FF)
 val VIOLET_VIOLET_60 = Color(0xffB18AFF)
 val VIOLET_VIOLET_40 = Color(0xffD3BDFF)
+val VIOLET_VIOLET_20 = Color(0xffEEE5FF)
 // blue
 val BLUE_BLUE_100 = Color(0xff0077FF)
 val BLUE_BLUE_80 = Color(0xff248AFF)

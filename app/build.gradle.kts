@@ -51,6 +51,8 @@ dependencies {
     implementation(libs.androidx.material3)
     // splash screen
     implementation(libs.androidx.core.splashscreen)
+    // loading
+//    implementation(libs.androidx.material3.jvmstubs)
     // testing libs
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
