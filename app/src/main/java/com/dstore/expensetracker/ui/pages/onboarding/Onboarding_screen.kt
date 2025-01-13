@@ -45,7 +45,12 @@ fun OnboardingScreen(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        OnboardingSlider(Modifier.padding(20.dp).fillMaxHeight(0.3f))
+        OnboardingSlider(
+            Modifier
+                .padding(20.dp)
+                .fillMaxHeight(0.3f)
+
+        )
         PrimaryButton(
             modifier = Modifier.fillMaxWidth(),
             text = "Login",
@@ -100,9 +105,10 @@ fun OnboardingCard(modifier: Modifier, curr: Int) {
             text = stringResource(titleList[curr]),
             style = MaterialTheme.typography.titleLarge,
             textAlign = TextAlign.Center,
+            maxLines = 2
         )
         Spacer(modifier = Modifier.height(10.dp))
-        Text(text = stringResource(subtitleList[curr]), textAlign = TextAlign.Center)
+        Text(text = stringResource(subtitleList[curr]), textAlign = TextAlign.Center, maxLines = 3)
     }
     Row(
         modifier = Modifier.padding(20.dp),
