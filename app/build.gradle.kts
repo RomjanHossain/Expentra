@@ -53,8 +53,6 @@ dependencies {
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.navigation.runtime.ktx)
-    // loading
-//    implementation(libs.androidx.material3.jvmstubs)
     // testing libs
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
